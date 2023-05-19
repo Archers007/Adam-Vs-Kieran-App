@@ -1,0 +1,609 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		540A18F42A17B18100461B58 /* Adam_Vs_KieranApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 540A18F32A17B18100461B58 /* Adam_Vs_KieranApp.swift */; };
+		540A18F62A17B18100461B58 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 540A18F52A17B18100461B58 /* ContentView.swift */; };
+		540A18F82A17B18300461B58 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 540A18F72A17B18300461B58 /* Assets.xcassets */; };
+		540A18FB2A17B18300461B58 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 540A18FA2A17B18300461B58 /* Preview Assets.xcassets */; };
+		540A18FD2A17B18300461B58 /* Persistence.swift in Sources */ = {isa = PBXBuildFile; fileRef = 540A18FC2A17B18300461B58 /* Persistence.swift */; };
+		540A19002A17B18300461B58 /* Adam_Vs_Kieran.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 540A18FE2A17B18300461B58 /* Adam_Vs_Kieran.xcdatamodeld */; };
+		540A190A2A17B18300461B58 /* Adam_Vs_KieranTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 540A19092A17B18300461B58 /* Adam_Vs_KieranTests.swift */; };
+		540A19142A17B18300461B58 /* Adam_Vs_KieranUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 540A19132A17B18300461B58 /* Adam_Vs_KieranUITests.swift */; };
+		540A19162A17B18300461B58 /* Adam_Vs_KieranUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 540A19152A17B18300461B58 /* Adam_Vs_KieranUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		540A19062A17B18300461B58 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 540A18E82A17B18100461B58 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 540A18EF2A17B18100461B58;
+			remoteInfo = Adam.Vs.Kieran;
+		};
+		540A19102A17B18300461B58 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 540A18E82A17B18100461B58 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 540A18EF2A17B18100461B58;
+			remoteInfo = Adam.Vs.Kieran;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		540A18F02A17B18100461B58 /* Adam.Vs.Kieran.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Adam.Vs.Kieran.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		540A18F32A17B18100461B58 /* Adam_Vs_KieranApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Adam_Vs_KieranApp.swift; sourceTree = "<group>"; };
+		540A18F52A17B18100461B58 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		540A18F72A17B18300461B58 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		540A18FA2A17B18300461B58 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		540A18FC2A17B18300461B58 /* Persistence.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Persistence.swift; sourceTree = "<group>"; };
+		540A18FF2A17B18300461B58 /* Adam_Vs_Kieran.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Adam_Vs_Kieran.xcdatamodel; sourceTree = "<group>"; };
+		540A19052A17B18300461B58 /* Adam.Vs.KieranTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Adam.Vs.KieranTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		540A19092A17B18300461B58 /* Adam_Vs_KieranTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Adam_Vs_KieranTests.swift; sourceTree = "<group>"; };
+		540A190F2A17B18300461B58 /* Adam.Vs.KieranUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Adam.Vs.KieranUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		540A19132A17B18300461B58 /* Adam_Vs_KieranUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Adam_Vs_KieranUITests.swift; sourceTree = "<group>"; };
+		540A19152A17B18300461B58 /* Adam_Vs_KieranUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Adam_Vs_KieranUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		540A18ED2A17B18100461B58 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		540A19022A17B18300461B58 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		540A190C2A17B18300461B58 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		540A18E72A17B18100461B58 = {
+			isa = PBXGroup;
+			children = (
+				540A18F22A17B18100461B58 /* Adam.Vs.Kieran */,
+				540A19082A17B18300461B58 /* Adam.Vs.KieranTests */,
+				540A19122A17B18300461B58 /* Adam.Vs.KieranUITests */,
+				540A18F12A17B18100461B58 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		540A18F12A17B18100461B58 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				540A18F02A17B18100461B58 /* Adam.Vs.Kieran.app */,
+				540A19052A17B18300461B58 /* Adam.Vs.KieranTests.xctest */,
+				540A190F2A17B18300461B58 /* Adam.Vs.KieranUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		540A18F22A17B18100461B58 /* Adam.Vs.Kieran */ = {
+			isa = PBXGroup;
+			children = (
+				540A18F32A17B18100461B58 /* Adam_Vs_KieranApp.swift */,
+				540A18F52A17B18100461B58 /* ContentView.swift */,
+				540A18F72A17B18300461B58 /* Assets.xcassets */,
+				540A18FC2A17B18300461B58 /* Persistence.swift */,
+				540A18FE2A17B18300461B58 /* Adam_Vs_Kieran.xcdatamodeld */,
+				540A18F92A17B18300461B58 /* Preview Content */,
+			);
+			path = Adam.Vs.Kieran;
+			sourceTree = "<group>";
+		};
+		540A18F92A17B18300461B58 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				540A18FA2A17B18300461B58 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		540A19082A17B18300461B58 /* Adam.Vs.KieranTests */ = {
+			isa = PBXGroup;
+			children = (
+				540A19092A17B18300461B58 /* Adam_Vs_KieranTests.swift */,
+			);
+			path = Adam.Vs.KieranTests;
+			sourceTree = "<group>";
+		};
+		540A19122A17B18300461B58 /* Adam.Vs.KieranUITests */ = {
+			isa = PBXGroup;
+			children = (
+				540A19132A17B18300461B58 /* Adam_Vs_KieranUITests.swift */,
+				540A19152A17B18300461B58 /* Adam_Vs_KieranUITestsLaunchTests.swift */,
+			);
+			path = Adam.Vs.KieranUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		540A18EF2A17B18100461B58 /* Adam.Vs.Kieran */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 540A19192A17B18300461B58 /* Build configuration list for PBXNativeTarget "Adam.Vs.Kieran" */;
+			buildPhases = (
+				540A18EC2A17B18100461B58 /* Sources */,
+				540A18ED2A17B18100461B58 /* Frameworks */,
+				540A18EE2A17B18100461B58 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Adam.Vs.Kieran;
+			productName = Adam.Vs.Kieran;
+			productReference = 540A18F02A17B18100461B58 /* Adam.Vs.Kieran.app */;
+			productType = "com.apple.product-type.application";
+		};
+		540A19042A17B18300461B58 /* Adam.Vs.KieranTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 540A191C2A17B18300461B58 /* Build configuration list for PBXNativeTarget "Adam.Vs.KieranTests" */;
+			buildPhases = (
+				540A19012A17B18300461B58 /* Sources */,
+				540A19022A17B18300461B58 /* Frameworks */,
+				540A19032A17B18300461B58 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				540A19072A17B18300461B58 /* PBXTargetDependency */,
+			);
+			name = Adam.Vs.KieranTests;
+			productName = Adam.Vs.KieranTests;
+			productReference = 540A19052A17B18300461B58 /* Adam.Vs.KieranTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		540A190E2A17B18300461B58 /* Adam.Vs.KieranUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 540A191F2A17B18300461B58 /* Build configuration list for PBXNativeTarget "Adam.Vs.KieranUITests" */;
+			buildPhases = (
+				540A190B2A17B18300461B58 /* Sources */,
+				540A190C2A17B18300461B58 /* Frameworks */,
+				540A190D2A17B18300461B58 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				540A19112A17B18300461B58 /* PBXTargetDependency */,
+			);
+			name = Adam.Vs.KieranUITests;
+			productName = Adam.Vs.KieranUITests;
+			productReference = 540A190F2A17B18300461B58 /* Adam.Vs.KieranUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		540A18E82A17B18100461B58 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1430;
+				LastUpgradeCheck = 1430;
+				TargetAttributes = {
+					540A18EF2A17B18100461B58 = {
+						CreatedOnToolsVersion = 14.3;
+					};
+					540A19042A17B18300461B58 = {
+						CreatedOnToolsVersion = 14.3;
+						TestTargetID = 540A18EF2A17B18100461B58;
+					};
+					540A190E2A17B18300461B58 = {
+						CreatedOnToolsVersion = 14.3;
+						TestTargetID = 540A18EF2A17B18100461B58;
+					};
+				};
+			};
+			buildConfigurationList = 540A18EB2A17B18100461B58 /* Build configuration list for PBXProject "Adam.Vs.Kieran" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 540A18E72A17B18100461B58;
+			productRefGroup = 540A18F12A17B18100461B58 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				540A18EF2A17B18100461B58 /* Adam.Vs.Kieran */,
+				540A19042A17B18300461B58 /* Adam.Vs.KieranTests */,
+				540A190E2A17B18300461B58 /* Adam.Vs.KieranUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		540A18EE2A17B18100461B58 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				540A18FB2A17B18300461B58 /* Preview Assets.xcassets in Resources */,
+				540A18F82A17B18300461B58 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		540A19032A17B18300461B58 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		540A190D2A17B18300461B58 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		540A18EC2A17B18100461B58 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				540A18FD2A17B18300461B58 /* Persistence.swift in Sources */,
+				540A18F62A17B18100461B58 /* ContentView.swift in Sources */,
+				540A18F42A17B18100461B58 /* Adam_Vs_KieranApp.swift in Sources */,
+				540A19002A17B18300461B58 /* Adam_Vs_Kieran.xcdatamodeld in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		540A19012A17B18300461B58 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				540A190A2A17B18300461B58 /* Adam_Vs_KieranTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		540A190B2A17B18300461B58 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				540A19162A17B18300461B58 /* Adam_Vs_KieranUITestsLaunchTests.swift in Sources */,
+				540A19142A17B18300461B58 /* Adam_Vs_KieranUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		540A19072A17B18300461B58 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 540A18EF2A17B18100461B58 /* Adam.Vs.Kieran */;
+			targetProxy = 540A19062A17B18300461B58 /* PBXContainerItemProxy */;
+		};
+		540A19112A17B18300461B58 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 540A18EF2A17B18100461B58 /* Adam.Vs.Kieran */;
+			targetProxy = 540A19102A17B18300461B58 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		540A19172A17B18300461B58 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		540A19182A17B18300461B58 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		540A191A2A17B18300461B58 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Adam.Vs.Kieran/Preview Content\"";
+				DEVELOPMENT_TEAM = 6J4BMY9PNR;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Rinzler.Adam-Vs-Kieran";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		540A191B2A17B18300461B58 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Adam.Vs.Kieran/Preview Content\"";
+				DEVELOPMENT_TEAM = 6J4BMY9PNR;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Rinzler.Adam-Vs-Kieran";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		540A191D2A17B18300461B58 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 6J4BMY9PNR;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Rinzler.Adam-Vs-KieranTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Adam.Vs.Kieran.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Adam.Vs.Kieran";
+			};
+			name = Debug;
+		};
+		540A191E2A17B18300461B58 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 6J4BMY9PNR;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Rinzler.Adam-Vs-KieranTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Adam.Vs.Kieran.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Adam.Vs.Kieran";
+			};
+			name = Release;
+		};
+		540A19202A17B18300461B58 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 6J4BMY9PNR;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Rinzler.Adam-Vs-KieranUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Adam.Vs.Kieran;
+			};
+			name = Debug;
+		};
+		540A19212A17B18300461B58 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 6J4BMY9PNR;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Rinzler.Adam-Vs-KieranUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Adam.Vs.Kieran;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		540A18EB2A17B18100461B58 /* Build configuration list for PBXProject "Adam.Vs.Kieran" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				540A19172A17B18300461B58 /* Debug */,
+				540A19182A17B18300461B58 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		540A19192A17B18300461B58 /* Build configuration list for PBXNativeTarget "Adam.Vs.Kieran" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				540A191A2A17B18300461B58 /* Debug */,
+				540A191B2A17B18300461B58 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		540A191C2A17B18300461B58 /* Build configuration list for PBXNativeTarget "Adam.Vs.KieranTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				540A191D2A17B18300461B58 /* Debug */,
+				540A191E2A17B18300461B58 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		540A191F2A17B18300461B58 /* Build configuration list for PBXNativeTarget "Adam.Vs.KieranUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				540A19202A17B18300461B58 /* Debug */,
+				540A19212A17B18300461B58 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		540A18FE2A17B18300461B58 /* Adam_Vs_Kieran.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				540A18FF2A17B18300461B58 /* Adam_Vs_Kieran.xcdatamodel */,
+			);
+			currentVersion = 540A18FF2A17B18300461B58 /* Adam_Vs_Kieran.xcdatamodel */;
+			path = Adam_Vs_Kieran.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 540A18E82A17B18100461B58 /* Project object */;
+}
